@@ -344,7 +344,7 @@ public final class InputDevice implements Parcelable {
      * @author Carlo Savignano
      * @hide
      */
-    public static final int SOURCE_NAVIGATION_BAR = 0x08000000 | SOURCE_CLASS_BUTTON;
+    public static final int SOURCE_NAVIGATION_BAR = 0x8000000 | SOURCE_CLASS_BUTTON;
 
     /**
      * A special input source constant that is used when filtering input devices
