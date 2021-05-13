@@ -101,5 +101,6 @@ public class SystemSettings {
         Settings.System.NOTIFICATION_HEADERS,
         Settings.System.STATUS_BAR_NOTIF_COUNT,
         Settings.System.COLOR_BUCKET_OVERLAY,
+        Settings.System.AUTO_BRIGHTNESS_ONE_SHOT,
     };
 }
