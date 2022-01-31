@@ -166,7 +166,7 @@ public final class PixelPropsUtils {
         "com.vng.pubgmobile",
         "com.rekoo.pubgm",
         "com.pubg.imobile",
-        "com.pubg.newstate",
+//        "com.pubg.newstate",
         "com.tencent.tmgp.pubgmhd",
         "com.gameloft.android.ANMP.GloftA9HM" // Asphalt 9
     );
