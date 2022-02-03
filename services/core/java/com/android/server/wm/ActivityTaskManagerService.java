@@ -5546,7 +5546,9 @@ public class ActivityTaskManagerService extends IActivityTaskManager.Stub {
             synchronized (mGlobalLock) {
                 mCompatModePackages.handlePackageDataClearedLocked(name);
                 mAppWarnings.onPackageDataCleared(name);
-                mGamingModeHelper.onPackageUninstalled(name);
+                if (mGamingModeHelper != null) {
+                    mGamingModeHelper.onPackageUninstalled(name);
+                }
             }
         }
 
