@@ -111,4 +111,8 @@
     <java-symbol type="id" name="aerr_copy" />
     <java-symbol type="string" name="url_copy_success" />
     <java-symbol type="string" name="url_copy_failed" />
+    
+    <!-- Gaming Mode FPSInfoService FPS node file path -->
+    <java-symbol type="string" name="config_gamingmode_fpsInfoSysNode" />
+
 </resources>
